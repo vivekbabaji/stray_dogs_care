@@ -6,6 +6,8 @@ export default {
                         <span style="font-size: 3rem; color: #1976d2;">
                             <i class="bi bi-person-circle"></i>
                         </span>
+                        <p>username- admin,user,doctor|password- 1234 </p>
+                        <p> </p>
                     </div>
                     <h2 class="mb-4 text-center text-primary fw-bold">Login</h2>
                     <form>
