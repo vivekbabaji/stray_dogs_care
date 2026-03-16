@@ -12,6 +12,8 @@ import register from '../pages/register.js'
 
 import user_registration from '../pages/user_registration.js'
 import doctor_registration from '../pages/doctor_registration.js'
+import connect_ngo from '../pages/connect_ngo.js'
+
 
 const routes = [
 
@@ -27,7 +29,8 @@ const routes = [
       {path : '/login',component:login},
       {path : '/register',component:register},
       {path : '/user_registration', component: user_registration},
-      {path : '/doctor_registration', component: doctor_registration}
+      {path : '/doctor_registration', component: doctor_registration},
+      {path : '/connect_NGO', component: connect_ngo}
 
 ]
 const router = new VueRouter({
